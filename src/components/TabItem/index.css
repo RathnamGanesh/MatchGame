@@ -1,0 +1,25 @@
+.tabItem {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Roboto;
+}
+
+.active-btn {
+  background-color: transparent;
+  border-width: 0px;
+  color: #fec653;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: Roboto;
+  border-bottom: solid 2px #fec653;
+}
